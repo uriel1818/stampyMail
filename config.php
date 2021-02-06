@@ -13,6 +13,7 @@ define('APP_NAME', 'StampyMail');
 //rutas o boilerplate de la app
 define('CONTROLLERS', './controllers/');
 define('HELPERS', './helpers/');
+define('MIDDLEWARES', './middlewares/');
 define('VIEWS', './views/');
 define('JAVASCRIPT', VIEWS . 'javascript/');
 define('CSS', VIEWS . 'css/');

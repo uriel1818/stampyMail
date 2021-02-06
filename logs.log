@@ -1,141 +1,23 @@
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- INICIO --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- ROUTER --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::set_controller->migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- MIGRATE --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- CONTROLLER --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::get_class->migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::get_model_class->models\migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- MIGRATE --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] <--- MODEL --->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] MODEL::connect_to_database->success
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] MODEL::set_table->
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::add_model->migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::set_layout->default
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::set_view->./views/migrate.php
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::add_js->app
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::add_css->app
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Migrate
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::set_action->index
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::set_params->vacio
-[04-Feb-2021 22:00:08 America/Argentina/Cordoba] ROUTER::route
-[04-Feb-2021 22:03:11 America/Argentina/Cordoba] <--- INICIO --->
-[04-Feb-2021 22:03:11 America/Argentina/Cordoba] <--- ROUTER --->
-[04-Feb-2021 22:03:11 America/Argentina/Cordoba] ROUTER::set_controller->migrate
-[04-Feb-2021 22:03:11 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\migrate
-[04-Feb-2021 22:03:11 America/Argentina/Cordoba] <--- controller_MIGRATE --->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] <--- CONTROLLER --->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::get_class->migrate
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] ROUTER::get_model_class->models\migrate
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] <--- model_MIGRATE --->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] <--- MODEL --->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] MODEL::connect_to_database->success
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] MODEL::set_table->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::add_model->migrate
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::set_layout->default
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::set_view->./views/migrate.php
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::add_js->app
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::add_css->app
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Migrate
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] ROUTER::set_action->index
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] ROUTER::set_params->vacio
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] ROUTER::route
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] controller_MIGRATE::index->
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] model_MIGRATE::delete_tables->
-            DROP TABLE IF EXISTS users;
-        
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] model_MIGRATE::create_tables->
-            CREATE TABLE IF NOT EXISTS users(
-                ID INTEGER PRIMARY KEY,
-                EMAIL VARCHAR(50),
-                PASSWORD VARCHAR(100),
-                
-            );   
-
-        
-[04-Feb-2021 22:03:12 America/Argentina/Cordoba] MODEL::query->PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in D:\Servidor\StampyMail\models\model.php:67
-Stack trace:
-#0 D:\Servidor\StampyMail\models\model.php(67): PDO->query('\r\n            C...')
-#1 D:\Servidor\StampyMail\models\migrate.php(29): models\model->query('\r\n            C...')
-#2 D:\Servidor\StampyMail\controllers\migrate.php(23): models\migrate->create_tables()
-#3 [internal function]: controllers\migrate->index('vacio')
-#4 D:\Servidor\StampyMail\controllers\router.php(112): call_user_func_array(Array, Array)
-#5 D:\Servidor\StampyMail\index.php(21): controllers\router->route()
-#6 {main}
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- INICIO --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- ROUTER --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::set_controller->migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- controller_MIGRATE --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- CONTROLLER --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::get_class->migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::get_model_class->models\migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- model_MIGRATE --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] <--- MODEL --->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] MODEL::connect_to_database->success
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] MODEL::set_table->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::add_model->migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::set_layout->default
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::set_view->./views/migrate.php
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::add_js->app
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::add_css->app
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Migrate
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::set_action->index
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::set_params->vacio
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] ROUTER::route
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] controller_MIGRATE::index->
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] model_MIGRATE::delete_tables->
-            DROP TABLE IF EXISTS users;
-        
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] model_MIGRATE::create_tables->
-            CREATE TABLE IF NOT EXISTS users(
-                ID INTEGER PRIMARY KEY,
-                EMAIL VARCHAR(50),
-                PASSWORD VARCHAR(100),
-                
-            );   
-
-        
-[04-Feb-2021 22:03:40 America/Argentina/Cordoba] MODEL::query->PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in D:\Servidor\StampyMail\models\model.php:67
-Stack trace:
-#0 D:\Servidor\StampyMail\models\model.php(67): PDO->query('\r\n            C...')
-#1 D:\Servidor\StampyMail\models\migrate.php(29): models\model->query('\r\n            C...')
-#2 D:\Servidor\StampyMail\controllers\migrate.php(23): models\migrate->create_tables()
-#3 [internal function]: controllers\migrate->index('vacio')
-#4 D:\Servidor\StampyMail\controllers\router.php(112): call_user_func_array(Array, Array)
-#5 D:\Servidor\StampyMail\index.php(21): controllers\router->route()
-#6 {main}
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- INICIO --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- ROUTER --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::set_controller->migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- controller_MIGRATE --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- CONTROLLER --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::get_class->migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::get_model_class->models\migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- model_MIGRATE --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] <--- MODEL --->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] MODEL::connect_to_database->success
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] MODEL::set_table->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::add_model->migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::set_layout->default
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::set_view->./views/migrate.php
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::add_js->app
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::add_css->app
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Migrate
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::set_action->index
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::set_params->vacio
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] ROUTER::route
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] controller_MIGRATE::index->
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] model_MIGRATE::delete_tables->
-            DROP TABLE IF EXISTS users;
-        
-[04-Feb-2021 22:04:39 America/Argentina/Cordoba] model_MIGRATE::create_tables->
-            CREATE TABLE IF NOT EXISTS users(
-                ID INTEGER PRIMARY KEY,
-                EMAIL VARCHAR(50),
-                PASSWORD VARCHAR(100)
-                
-            );   
-
-        
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::get_model_class->models\model
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::run

@@ -5,9 +5,8 @@
  * Importo lo necesario para arrancar la app.
  */
 require_once 'config.php';
-require_once CONTROLLERS . 'router.php';
+require_once MIDDLEWARES . 'router.php';
 
-session_start();
 
 use controllers\Router;
 

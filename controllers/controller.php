@@ -14,7 +14,6 @@ class controller
     {
         error_log('<--- CONTROLLER --->');
 
-        $this->add_helper('login');
         $this->set_class_name();
         $this->add_model($this->class_name);
         $this->set_layout("default");
@@ -22,14 +21,29 @@ class controller
         $this->add_js('app');
         $this->add_css('app');
         $this->set_title();
+        //$this->load_helpers(['']) //cargar helpers globales
+    }
+
+
+    /**
+     * Agrego multiples helpers al array $this->helpers
+     */
+    protected function load_helpers($helpers)
+    {
+        foreach ($helpers as $helper) {
+            $this->add_helper($helper);
+        }
     }
 
     /**
-     * Instancio los helpers para la clase
+     * Instancio los helpers para la clase actual
      */
-    protected function add_helper($helper){
-        $this->helpers = HELPERS . $helper .'.php' ;
-        error_log('CONTROLLER::use_helpers->'.$helper);
+    protected function add_helper($helper)
+    {
+        require_once HELPERS . $helper . '.php';
+        $namespace = "helpers\\{$helper}";
+        $this->helpers[$helper] = new $namespace;
+        error_log('CONTROLLER::use_helpers->' . $helper);
     }
 
     /**
@@ -81,8 +95,8 @@ class controller
     {
         //si existe el archivo modelo lo instancio, sino instancio el modelo por defecto
         $this->models[$model] = $this->validate_model($model) ? $this->get_model_class($model) : $this->get_model_class(DEFAULT_MODEL);
-       
-        error_log('CONTROLLER::add_model->'.$model);
+
+        error_log('CONTROLLER::add_model->' . $model);
     }
 
     /**
@@ -105,12 +119,12 @@ class controller
      */
     private function get_model_class($model)
     {
-            require_once($this->get_model_path($model));
-            $namespace = "models\\{$model}";
+        require_once($this->get_model_path($model));
+        $namespace = "models\\{$model}";
 
-            error_log('ROUTER::get_model_class->' . $namespace);
+        error_log('ROUTER::get_model_class->' . $namespace);
 
-            return  new $namespace;
+        return  new $namespace;
     }
 
 
@@ -189,23 +203,20 @@ class controller
     }
 
 
+
     protected function run()
     {
         error_log('CONTROLLER::run');
 
         $data = $this->data;
-
         ob_start();
-
         require_once($this->get_layout_path($this->layout));
-
-
         ob_flush();
         ob_clean();
     }
 
 
-    
+
     public function index()
     {
         error_log('CONTROLLER::index');

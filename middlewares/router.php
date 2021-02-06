@@ -9,6 +9,7 @@ class router
     private $controller_class;
     private $action;
     private $params;
+    private $middlewares = array();
 
     public function __construct()
     {
@@ -18,8 +19,36 @@ class router
         $this->controller_class = $this->get_controller_class();
         $this->set_action();
         $this->set_params();
+        $this->set_middlewares(['session']);
+        $this->exclude_from_middleware('session', 'login');
     }
 
+    /**
+     * Defino los middlewares que voy a usar de forma global (en todas las rutas)
+     */
+    private function set_middlewares($middlewares)
+    {
+        if ($middlewares) {
+            foreach ($middlewares as $middleware) {
+                $this->middlewares[$middleware] = array();
+            }
+        }
+    }
+
+    /**
+     * Excluyo el controlador del middleware para que no se ejecute el middleware cuando entre a este controlador
+     */
+    private function exclude_from_middleware($middleware, $controller)
+    {
+        if (array_key_exists($middleware, $this->middlewares)) {
+            $this->middlewares[$middleware][] = $controller;
+        }
+    }
+
+
+    /**
+     * Convierto la url en un array y lo grabo en $this->uri
+     */
     private function set_uri()
     {
         $this->uri = explode('/', $_SERVER['REQUEST_URI']);
@@ -74,8 +103,8 @@ class router
     }
 
     /**
-    * Devuelve el nombre del controlador en la url, si el mismo es válido, sino devuelve FALSE
-    */
+     * Devuelve el nombre del controlador en la url, si el mismo es válido, sino devuelve FALSE
+     */
     private function validate_controller()
     {
         if (empty($this->uri[1])) {
@@ -103,11 +132,32 @@ class router
     }
 
     /**
+     * ejecuto la funcion index() del middleware si el controlador no se encuentra como valor de su array
+     */
+    private function execute_middlewares()
+    {
+        error_log('controller_ROUTER::execute_middlewares->' . $this->controller);
+
+        if (!empty($this->middlewares)) {
+            foreach ($this->middlewares as $middleware => $controller) {
+                if (!in_array($this->controller, $controller)) {
+                    require_once MIDDLEWARES . $middleware . '.php';
+                    $namespace = "middlewares\\{$middleware}";
+                    $helper = new $namespace;
+                    $helper->index();
+                }
+            }
+        }
+    }
+
+    /**
      * Llamo al método del controlador con sus parámetros
      */
     public function route()
     {
         error_log('ROUTER::route');
+
+        if (!empty($this->middlewares)) $this->execute_middlewares();
 
         call_user_func_array([$this->controller_class, $this->action], $this->params);
     }
