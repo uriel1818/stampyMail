@@ -21,3 +21,387 @@
 [05-Feb-2021 22:49:50 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
 [05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::index
 [05-Feb-2021 22:49:50 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_controller->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- INDEX --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::get_class->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::get_model_class->models\model
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_model->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_view->./views/index.php
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- middle_SESSION --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] middle_SESSION::index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] middle_SESSION::validate_session
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:21:47 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:21:53 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:21:53 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:21:53 America/Argentina/Cordoba] ROUTER::set_controller->index
+[05-Feb-2021 23:21:53 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\index
+[05-Feb-2021 23:21:53 America/Argentina/Cordoba] <--- INDEX --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::get_class->index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::get_model_class->models\model
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_model->index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_view->./views/index.php
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- middle_SESSION --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] middle_SESSION::index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] middle_SESSION::validate_session
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:21:54 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:21:56 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:21:56 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:21:56 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:21:57 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:24:24 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:24:31 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:26:01 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:26:12 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:26:28 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:26:45 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:27:08 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:27:08 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:27:09 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:27:27 America/Argentina/Cordoba] CONTROLLER::run
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- INICIO --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- ROUTER --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::set_controller->login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- CONTROLLER --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- model_LOGIN --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] <--- MODEL --->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] MODEL::set_table->
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::set_action->index
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] ROUTER::route
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::index
+[05-Feb-2021 23:27:35 America/Argentina/Cordoba] CONTROLLER::run
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- INICIO --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- ROUTER --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_controller->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- INDEX --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- CONTROLLER --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::get_class->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::get_model_class->models\model
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- MODEL --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] MODEL::set_table->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_model->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_view->./views/index.php
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_action->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::route
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- middle_SESSION --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] middle_SESSION::index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] middle_SESSION::validate_session
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- INICIO --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- ROUTER --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_controller->login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::get_controller_class->controllers\login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- controller_LOGIN --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- CONTROLLER --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::get_class->login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::get_model_class->models\login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- model_LOGIN --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] <--- MODEL --->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] MODEL::connect_to_database->success
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] MODEL::set_table->
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_model->login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_layout->default
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_view->./views/login.php
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_js->app
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::add_css->app
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::set_title->StampyMail - Login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_action->index
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::set_params->vacio
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] ROUTER::route
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] controller_ROUTER::execute_middlewares->login
+[08-Feb-2021 10:01:49 America/Argentina/Cordoba] CONTROLLER::index
+[08-Feb-2021 10:01:50 America/Argentina/Cordoba] CONTROLLER::run

@@ -34,6 +34,7 @@ class migrate extends model
         error_log('model_MIGRATE::delete_tables->'.$sql);
        return $this->query($sql);
     }
+    public function
 
 
 }
